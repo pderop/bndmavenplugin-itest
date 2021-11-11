@@ -1,0 +1,9 @@
+#-runtrace: true
+-standalone: true
+-runee: JavaSE-1.8
+-resolve.effective: resolve
+-runfw: org.apache.felix.framework
+-runbundles: \
+	biz.aQute.junit;version=6.0,\
+	bndmavenplugin.itest;version=1.0
+
